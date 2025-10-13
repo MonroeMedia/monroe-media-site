@@ -1,0 +1,63 @@
+import React from "react";
+import "../App.css";
+import profilePic from "../assets/images/eddie-headshot.jpeg"; // replace with your actual image
+
+
+const Contact = () => {
+  return (
+    <div className="contact-page">
+      <div className="contact-wrapper">
+        <div className="contact-header">
+          <div className="profile-wrapper">
+            <img
+              src={profilePic}
+              alt="Eddie Monroe"
+              className="profile-img"
+            />
+          </div>
+
+          <h2 className="contact-title">Let's work together!</h2>
+
+          <div className="contact-button-container">
+            <button className="contact-button">
+              <a href="mailto:eddiemonroemedia@gmail.com">Get in touch</a>
+            </button>
+          </div>
+        </div>
+
+        <div className="email-section">
+          <button className="email-button">
+            <span className="email-text">eddiemonroemedia@gmail.com</span>
+          </button>
+        </div>
+
+        <div className="contact-footer">
+          <p className="footer-bio">
+            Creative Director at Monroe Media Company — building websites,
+            automation, and cinematic storytelling for small businesses and
+            creators.
+          </p>
+
+          <div className="footer-info">
+            <div className="footer-block">
+              <h3>Version</h3>
+              <p>2025 © Edition</p>
+            </div>
+            <div className="footer-block">
+              <h3>Timezone</h3>
+              <p>EST (GMT-5)</p>
+            </div>
+            <div className="footer-block socials">
+              <h3>Socials</h3>
+              <a href="#">Twitter</a>
+              <a href="#">GitHub</a>
+              <a href="#">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;

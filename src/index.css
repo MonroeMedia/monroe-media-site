@@ -1,13 +1,79 @@
-body {
+/* 1. Import your primary Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+/* 2. Global Resets */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* 3. Responsive base font settings */
+html {
+  font-size: 100%; /* Default = 16px */
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --font-main: 'Inter', sans-serif;
+  --bg-color: #000000;
+  --text-color: #000000;
 }
+
+/* 4. Body Setup — Black background, white text */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  color: #000000;            /* Soft white text */
+  background-color: #141414; /* Deep black background */
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 5. Typography scale */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1;
+  color: #000000;
+  letter-spacing: .25rem;
+}
+
+h1 {
+  font-size: clamp(4rem, 12vw, 8rem);
+  
+}
+
+h2 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+p {
+  font-size: clamp(1rem, 1.5vw, 1.125rem);
+  margin-bottom: 1em;
+  max-width: 60ch;
+}
+
+/* 6. Links */
+a {
+  color: #00aaff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #66ccff;
+}
+
