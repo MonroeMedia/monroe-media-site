@@ -1,5 +1,14 @@
 
+.container {
+  padding: 0px;
+  margin: 0px;
 
+}
+.home-page {
+  padding: 0px;
+  margin: 0px;
+
+}
 .hero-main-div {
   display: flex;
   flex-direction: column;
@@ -10,6 +19,10 @@
   position: relative;
   overflow: hidden;
   background-color: black;
+
+  margin-top: 0;
+  padding-top: 0;
+  height: 100svh;
 }
 
 .hero-text {
@@ -822,7 +835,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 24px 64px;
+  padding: 16px 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1029,6 +1042,7 @@
 
 .service-item {
   font-size: 3rem;
+  line-height: 1.6;
 }
 
 /* active fade-up */

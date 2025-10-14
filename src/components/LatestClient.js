@@ -20,7 +20,11 @@ function LatestClient() {
 
         {/* Right Column: Text */}
         <div className="latest-client-text">
-          <h2 className="latest-client-heading">Latest Project: Envious Gardens Vape Brand</h2>
+        <h2 className="latest-client-heading">
+          <span style={{ fontWeight: 400 }}>Latest Project:</span>{" "}
+          <strong>Envious Gardens Vape Brand</strong>
+        </h2>
+
           <div className="latest-client-divider"></div>
           <p className="latest-client-description">
             Envious Gardens is an independently owned THC vape pen brand known

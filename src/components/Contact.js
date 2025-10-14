@@ -20,7 +20,7 @@ const Contact = () => {
 
           <div className="contact-button-container">
             <button className="contact-button">
-              <a href="mailto:eddiemonroemedia@gmail.com">Get in touch</a>
+              <a href="https://forms.gle/mxzKKYU8DwUYLU5z6" target="_blank">Get in touch</a>
             </button>
           </div>
         </div>
