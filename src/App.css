@@ -277,16 +277,8 @@
   transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.15s ease, color 0.15s ease;
 }
 
-.project-card:hover .project-btn {
-  opacity: 1;
-  transform: translateX(-50%) translateY(0);
-}
 
-.project-btn:hover {
-  background-color: #ffffff;
-  color: #141414;
-  border: 1px solid #141414;
-}
+
 
 /* --- MAIN CTA BUTTON --- */
 .projects-btn-wrapper {
@@ -297,7 +289,7 @@
 
 .projects-btn {
   background: transparent;
-  border: 1px solid #000000;
+
   color: #141414;
   border-radius: 9999px;
   padding: 1rem 2rem;
@@ -308,10 +300,7 @@
   transition: background-color 0.15s ease, color 0.15s ease;
 }
 
-.projects-btn:hover {
-  background-color: #000000;
-  color: #ffffff;
-}
+
 
 /* --- RESPONSIVE --- */
 @media (max-width: 1024px) {
@@ -615,6 +604,7 @@
 .footer-info {
   display: flex;
   gap: 60px;
+  line-height: 1.6;
 }
 
 .footer-block {
