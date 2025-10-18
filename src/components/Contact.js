@@ -33,8 +33,7 @@ const Contact = () => {
 
         <div className="contact-footer">
           <p className="footer-bio">
-            Creative Director at Monroe Media Company — building websites,
-            automation, and cinematic storytelling for small businesses and
+            Building websites, creating digital marketing/branding campaigns and storytelling for small businesses and
             creators.
           </p>
 
@@ -49,9 +48,9 @@ const Contact = () => {
             </div>
             <div className="footer-block socials">
               <h3>Socials</h3>
-              <a href="#">Twitter</a>
-              <a href="#">GitHub</a>
-              <a href="#">LinkedIn</a>
+              <a href="https://www.instagram.com/monroemediacompany/" target="_blank">Instagram</a>
+              <a href="https://www.facebook.com/MonroeMediaCompanyOfficial" target="_blank">Facebook</a>
+              <a href="https://www.linkedin.com/in/eddie-monroe-media" target="_blank">LinkedIn</a>
             </div>
           </div>
         </div>

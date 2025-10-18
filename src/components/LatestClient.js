@@ -32,12 +32,12 @@ function LatestClient() {
             expression in every detail.
           </p>
           <a
-            href="https://enviousgardens.com"
+            href="/envious-gardens"
             target="_blank"
             rel="noopener noreferrer"
             className="latest-client-btn"
           >
-            Visit Site
+            View full project
           </a>
         </div>
       </div>
