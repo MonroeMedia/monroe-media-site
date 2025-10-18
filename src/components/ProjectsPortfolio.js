@@ -47,7 +47,7 @@ function ProjectsPortfolio() {
     { class: "tt", img: tt, name: "Ty's Touch", link: "/tys-touch", internal: true },
     { class: "velvet2", img: velvet2, name: "E-commerce Stores", link: "/velvet-fm", internal: true },
     { class: "wilsons", img: wilsons, name: "Wilson's Wholesale", link: "/wilsons", internal: true },
-
+    { class: "cbd", img: cbd, name: "Carolina Bud Dispensary", link: "/carolina-bud-dispensary", internal: true },
   ];
 
   // Helper: duplicate a slice for seamless looping
